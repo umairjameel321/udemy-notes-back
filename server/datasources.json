@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "noteapi",
+    "password": "",
+    "name": "mongodb",
+    "user": "newUser",
+    "connector": "mongodb"
+  },
+  "Email": {
+    "name": "Email",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "umairtemp3@gmail.com",
+          "pass": "hello@1234"
+        }
+      }
+    ]
+  }
+}
